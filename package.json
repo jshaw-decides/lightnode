@@ -1,0 +1,21 @@
+{
+  "name": "lightnode",
+  "version": "1.0.0",
+  "description": "A Fastify server running the Warp SDK.",
+  "main": "index.js",
+  "scripts": {
+    "install": "(cd server && npm i) && (cd infra && npm i)",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "launch": "(cd infra && npm run deploy)"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/facts-laboratory/lightnode.git"
+  },
+  "author": "Justin Shaw",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/facts-laboratory/lightnode/issues"
+  },
+  "homepage": "https://github.com/facts-laboratory/lightnode#readme"
+}
